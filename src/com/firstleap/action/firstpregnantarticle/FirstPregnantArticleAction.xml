@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+    "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="com.firstleap.action.firstpregnantarticle.FirstPregnantArticleAction" extends="index" namespace="/pregnantart">
+		<action name="pregnantart_*" class="FirstPregnantArticleAction" method="{1}">
+        	<result name="input">/index.jsp</result>
+        	<result name="list">/WEB-INF/firstleap/firstpregnantarticle/firstpregnantarticle.jsp</result>
+        	<result name="pregnantArticleDetail">/page/pregnant/pregnantArticleDetail.jsp</result>
+        	<result name="pregnantArticleList">/page/pregnant/pregnantArticleList.jsp</result>
+        </action>
+	</package>
+	
+</struts>
+	

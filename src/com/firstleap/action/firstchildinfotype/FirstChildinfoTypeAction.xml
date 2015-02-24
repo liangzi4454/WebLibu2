@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+    "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="com.firstleap.action.firstchildinfotype.FirstChildinfoTypeAction" extends="index" namespace="/childtype">
+		<action name="childtype_*" class="FirstChildinfoTypeAction" method="{1}">
+        	<result name="input">/index.jsp</result>
+        	<result name="nurseryIndex">/page/nursery/nursery.jsp</result>
+        </action>
+	</package>
+</struts>
+	
